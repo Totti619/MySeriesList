@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/activity_item_posterImageView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <TextView
+            android:id="@+id/activity_item_titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_item_textView_padding" />
+
+        <TextView
+            android:id="@+id/activity_item_yearTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_item_textView_padding" />
+
+        <TextView
+            android:id="@+id/activity_item_genreTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_item_textView_padding" />
+
+        <TextView
+            android:id="@+id/activity_item_plotTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_item_textView_padding" />
+
+        <TextView
+            android:id="@+id/activity_item_directorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_item_textView_padding" />
+
+        <TextView
+            android:id="@+id/activity_item_actorsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_item_textView_padding" />
+
+        <TextView
+            android:id="@+id/activity_item_countryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_item_textView_padding" />
+    </LinearLayout>
+</ScrollView>

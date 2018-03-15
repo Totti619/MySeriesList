@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.antonio.project.SearchActivity">
+
+    <EditText
+        android:id="@+id/activity_search_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/activity_search_editText_text" />
+
+    <RadioGroup
+        android:id="@+id/activity_search_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/activity_search_movieRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/activity_search_movieRadio_text" />
+
+        <RadioButton
+            android:id="@+id/activity_search_seriesRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/activity_search_seriesRadio_text" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/activity_search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/activity_search_button_text" />
+
+</LinearLayout>
